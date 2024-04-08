@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para o formulário de clientes */
+#formCliente {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#formCliente label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#formCliente input[type="text"],
+#formCliente input[type="email"],
+#formCliente input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#formCliente button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#formCliente button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para o formulário de produtos */
+#formProduto {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#formProduto label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#formProduto input[type="text"],
+#formProduto textarea,
+#formProduto input[type="number"],
+#formProduto input[type="datetime-local"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#formProduto button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#formProduto button:hover {
+    background-color: #45a049;
+}

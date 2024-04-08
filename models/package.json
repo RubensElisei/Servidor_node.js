@@ -1,0 +1,39 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "servidor ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RubensElisei/Servidor_node.js.git"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "javaScript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-errors": "^2.0.0",
+    "jade": "^0.29.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.9.3"
+  },
+  "bugs": {
+    "url": "https://github.com/RubensElisei/Servidor_node.js/issues"
+  },
+  "homepage": "https://github.com/RubensElisei/Servidor_node.js#readme",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^3.1.0"
+  }
+}
